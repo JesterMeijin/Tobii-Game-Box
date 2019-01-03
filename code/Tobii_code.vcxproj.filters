@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{C196CD9C-2D76-4C38-368E-D70EA2ECB299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\game">
+      <UniqueIdentifier>{2A9D7B50-1600-0BF5-BF85-43ABABC7D677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\game\remember">
+      <UniqueIdentifier>{08FB1E2C-7467-DA26-3D5B-7284A986FC8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{89565304-F535-D29F-FE4D-5D766AAC3801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\game">
+      <UniqueIdentifier>{165530CF-0222-8BDA-2B3B-79821767C068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\game\remember">
+      <UniqueIdentifier>{745CCFBC-E072-CD52-29EA-5874953F9EDA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Application.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Button.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Config.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Constants.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cursor.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CursorMovementManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Frame.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameCounter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GazeObject.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InputDefinition.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InputManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Label.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Leaderboard.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Menu.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MouseCursor.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MusicManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Settings.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Statistics.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StatisticsManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SubMenu.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TimeCounter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TobiiCursor.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UncopyableObject.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\coord.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\remember\Case.h">
+      <Filter>Headers\game\remember</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\remember\RememberGame.h">
+      <Filter>Headers\game\remember</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ratio.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StatisticsManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Application.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Button.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Config.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Cursor.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CursorMovementManager.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Frame.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameCounter.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GazeObject.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputManager.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Label.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Leaderboard.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menu.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MouseCursor.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MusicManager.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Settings.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Statistics.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StatisticsManager.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SubMenu.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TimeCounter.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TobiiCursor.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utils.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\remember\Case.cpp">
+      <Filter>Sources\game\remember</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\remember\RememberGame.cpp">
+      <Filter>Sources\game\remember</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
