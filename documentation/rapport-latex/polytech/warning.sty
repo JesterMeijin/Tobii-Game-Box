@@ -1,0 +1,41 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{polytech/warning}[\polytechfiledate\space\polytechfileversion\space Polytech document class sub package]
+
+%###
+
+\csdef{polytech@output@copyrightnotice}{
+  \ifcsdef{polytech@copyrightnotice@disabled@\csuse{polytech@typereport}}{}{
+		\chapter*{\csuse{polytech@warning@name@\csuse{polytech@lang}}}
+    \thispagestyle{empty}%
+
+  	Ce document a été rédigé par \csuse{polytech@output@students@simple} \notbool{polytech@students@plural}{susnommé l'auteur}{susnommés les auteurs}.
+  
+  	\ifcsdef{polytech@company@db@name}{
+  		L'entreprise \csuse{polytech@output@company@simple} est représentée par \csuse{polytech@output@industrialsupervisors@simple}
+  		\notbool{polytech@industrialsupervisors@plural}{susnommé le tuteur entreprise}{susnommés les tuteurs entreprise}.
+  	}{}
+  
+  	L'\csuse{polytech@school} est représentée par \csuse{polytech@output@academicsupervisors@simple}
+  	\notbool{polytech@academicsupervisors@plural}{susnommé le tuteur académique}{susnommés les tuteurs académiques}.
+  
+  	Par l'utilisation de ce modèle de document, l'ensemble des intervenants du projet acceptent les conditions définies ci-après.
+  
+  	\notbool{polytech@students@plural}{L'auteur reconnait}{Les auteurs reconnaissent} assumer l'entière responsabilité
+  	du contenu du document ainsi que toutes suites judiciaires qui pourraient en découler du fait du non respect des lois ou des droits d'auteur.
+  
+  	\notbool{polytech@students@plural}{L'auteur atteste}{Les auteurs attestent} que les propos du document sont sincères
+  	et assument l'entière responsabilité de la véracité des propos.
+  
+  	\notbool{polytech@students@plural}{L'auteur atteste}{Les auteurs attestent} ne pas s'approprier le travail d'autrui et que
+  	le document ne contient aucun plagiat.
+  
+  	\notbool{polytech@students@plural}{L'auteur atteste}{Les auteurs attestent} que le document ne contient aucun propos diffamatoire ou condamnable devant la loi.
+  
+  	\notbool{polytech@students@plural}{L'auteur reconnait qu'il ne peut}{Les auteurs reconnaissent qu'ils ne peuvent} diffuser ce document en partie ou en intégralité sous quelque forme que ce soit sans l'accord préalable
+  	\notbool{polytech@academicsupervisors@plural}{du tuteur académique}{des tuteurs académiques}%
+  	\ifcsdef{polytech@output@company@simple}{ et de l'entreprise}{}.
+  
+  	\notbool{polytech@students@plural}{L'auteur autorise}{Les auteurs autorisent} l'école polytechnique de l'université François Rabelais de Tours à diffuser tout ou partie de ce document, sous quelque forme que ce soit, y compris après transformation en citant la source. Cette diffusion devra se faire gracieusement et être accompagnée du présent avertissement.
+	}
+}
+%###
