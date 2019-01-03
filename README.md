@@ -9,7 +9,7 @@ You can run ``TobiiGamebox.exe`` in the release folder to run the last release o
 ### Users
 To make the sotware running as expected, please download and install the following requirements before : 
 - [Microsoft Visual C++ Redistributable for Visual Studio 2017](https://support.microsoft.com/en-ph/help/2977003/the-latest-supported-visual-c-downloads)
-- [Logiciel Tobii Gaming (Eye Tracking Core Software)](https://tobiigaming.com/getstarted/)
+- [Logiciel Tobii Gaming (Eye Tracking Core Software)](https://tobiigaming.com/getstarted/)- Only for Tobii devices
 
 Once installed, you can run the ``TobiiGamebox.exe`` software from the ``release`` folder. Enjoy !
 
