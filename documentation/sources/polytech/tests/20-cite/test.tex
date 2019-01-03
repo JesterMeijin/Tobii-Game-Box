@@ -1,0 +1,57 @@
+\documentclass[noposter]{polytech/polytech}
+      
+\usepackage{lipsum}
+
+\typereport{prddi5}
+
+\reportyear{2015-2016}
+
+\title{Exemple d'utilisation de la classe de document \mbox{polytech}}
+\subtitle{Il peut y avoir un sous titre mais ce n'est pas obligatoire}
+\reportlogo{polytech/polytech}
+
+\student[di5]{Pierre}{Premier}{pierre.premier@example.com}
+\student[di4]{Paul}{Deuxième}{paul2@example.com}
+\student[none]{Paul}{Deuxième}{paul2@example.com}
+\student{Jacques}{Un peu plus Long}{j.unpeupluslong@example.com}
+
+\academicsupervisor[di]{First}{Supervisor}{first.supervisor@example.com}
+\academicsupervisor[dee]{Second}{Supervisor}{second.supervisor@example.com}
+\academicsupervisor{Machin}{Chose}{machin.chose@example.com}
+
+\industrialsupervisor[Fonction très importante]{Un}{Gars}{un.gars@example.com}
+\industrialsupervisor{Un deuxième}{Gars}{undeuxieme.gars@example.com}
+
+\company[polytech/polytech]{La grosse compagnie}{1 rue de l'étrange\\999999 Dans vos rèves}{example.com}
+
+\confidential
+
+\resume{\lipsum[1]}
+\motcle{mot}
+\motcle{clé}
+\motcle{deux mots}
+
+\abstract{\lipsum[1-1]}
+\keyword{word}
+\keyword{key}
+\keyword{two words}
+\keyword{fourth word}
+ 
+\addbibresource{biblio.bib}
+ 
+\begin{document} 
+
+ 
+\chapter{premier chapitre}
+
+\cite{article}
+
+\cite{key1}
+\cite{key2}
+\cite{online1}
+\cite{online2}
+
+\end{document}
+
+
+ 

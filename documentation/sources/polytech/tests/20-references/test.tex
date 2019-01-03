@@ -1,0 +1,242 @@
+\documentclass[bare]{polytech/polytech}
+      
+\usepackage{lipsum}
+
+\addbibresource{biblio}
+  
+\begin{document}
+             
+\chapter*[Titre court pour l'entête]{Introduction générale du rapport avec un titre un peu long}
+
+\label{sec:0}    
+\label{chap0}    
+
+
+blah \autoref{chap0:sec}. \autoref{chap0:sec} truc
+
+blah \autoref{essai:chap1:sec}. \autoref{essai:chap1:sec} truc
+
+blah \eqref{eq:a1}. \eqref{eq:a1} truc
+
+blah \eqref{eq:3}. \eqref{eq:3} truc
+
+blah \autoref{eq:1}. \autoref{eq:1} truc
+
+blah \autoref{eq:3}. \autoref{eq:3} truc
+
+
+
+\begin{equation}
+\label{eq:1} 
+E=mc2
+\end{equation}     
+
+\begin{eqnarray}
+\label{eq:a1}
+E&=&mc2\\
+\label{eq:a2}   
+E&=&mc2\\
+\label{eq:a3}
+E&=&mc2 
+\end{eqnarray}          
+ 
+Equation meme chapitre : \autoref{eq:1} - \eqref{eq:1}
+ 
+Equation meme chapitre (array) : \autoref{eq:a1} - \eqref{eq:a1}
+
+Equation meme chapitre (array) : \autoref{eq:a2} - \eqref{eq:a2}
+
+Equation meme chapitre (array) : \autoref{eq:a3} - \eqref{eq:a3}
+
+Equation autre chapitre : \autoref{eq:2} - \eqref{eq:2}
+
+
+Equation annexe :  \autoref{eq:3}   - \eqref{eq:3}  
+      
+Part : \ref{part:essai} - \autoref{part:essai} - \refchapterof{part:essai}            
+       
+Annexe : \ref{ann:chap1} - \autoref{ann:chap1} - \refchapterof{ann:chap1}              
+ 
+Section d'annexe : \ref{ann:chap1:sec} - \autoref{ann:chap1:sec} - \refchapterof{ann:chap1:sec}          
+ 
+ Chap : \ref{essai:chap1} - \autoref{essai:chap1} - \refchapterof{essai:chap1}
+            
+Chap section : \ref{essai:chap1:sec} - \autoref{essai:chap1:sec} - \refchapterof{essai:chap1:sec}
+
+
+Chap unnumbered : \ref{essai:chap2} - \autoref{essai:chap2} - \refchapterof{essai:chap2}       
+
+Chap unnumbered section : \ref{essai:chap2:sec} - \autoref{essai:chap2:sec} - \refchapterof{essai:chap2:sec}
+
+This unnumbered chapter : \ref{chap0} -\autoref{chap0} - '\refchapterof{chap0}'  
+  
+This unnumbered chapter section: '\ref{chap0:sec}' - '\autoref{chap0:sec}' - '\refchapterof{chap0:sec}'  
+
+This unnumbered chapter subsection: '\ref{chap0:subsec}' - '\autoref{chap0:subsec}' - '\refchapterof{chap0:sec}'
+
+This unnumbered chapter subsubsection: '\ref{chap0:subsubsec}' - '\autoref{chap0:subsubsec}' - '\refchapterof{chap0:sec}'
+
+This unnumbered chapter paragraph: '\ref{chap0:para}' - '\autoref{chap0:para}' - '\refchapterof{chap0:sec}'
+
+This unnumbered chapter subparagraph: '\ref{chap0:subpara}' - '\autoref{chap0:subpara}' - '\refchapterof{chap0:sec}'
+              
+
+\lipsum[1-5]
+
+\section{Ma section}
+
+\label{chap0:sec}
+
+\lipsum[1-3]
+
+\subsection{Ma section}
+
+\label{chap0:subsec}
+
+\lipsum[1-3]
+
+\subsubsection{Ma section}
+
+\label{chap0:subsubsec}
+
+\lipsum[1-3]
+
+\paragraph{Ma section}
+
+\label{chap0:para}
+
+\lipsum[1-3]
+
+\subparagraph{Ma section}
+
+\label{chap0:subpara}
+
+\lipsum[1-3]
+
+\section{Une section n'est jamais seule, donc j'en ajoute au moins une autre et le titre peut être long si nécessaire}
+
+\lipsum[1-3]
+                       
+                       
+           
+     
+\section{Le dicton dit \og{}Jamais deux sans trois\fg{}, donc j'en ajoute au moins une autre et le titre peut être long si nécessaire mais il ne faut pas abuser car ça devient moche et peu explicite sinon}
+
+\lipsum[1-3] 
+
+\part{Les premiers trucs dont je vais parler}                
+\label{part:premierstrucs}
+
+\chapter{Le tout premier truc}   
+\label{chap:toutpremier}
+
+\begin{equation}
+\label{eq:2} 
+E=mc2
+\end{equation}       
+  
+%\ref{sec:0}
+  
+%\autoref{sec:0}
+
+\lipsum[1]
+           
+
+\part{essai}
+\label{part:essai}
+ 
+ \chapter{essai:chapXX}
+ 
+\chapter{essai:chap1}
+\label{essai:chap1}
+      
+\lipsum[1-4]
+     
+\section{truc}
+
+\label{essai:chap1:sec}
+
+\chapter*{essai:chap2}
+\label{essai:chap2}
+     
+\lipsum[1-4]
+
+\section{truc}
+
+\label{essai:chap2:sec}
+
+  
+\chapter{truc}
+\lipsum[1-20]         
+ 
+\subsection{Ma section}
+\lipsum[1-5]           
+
+\subsection{Ma section}
+\lipsum[1-5]
+\subsubsection{Ma section}
+\lipsum[1-5]
+\subsubsection{Ma section}
+\lipsum[1-5]
+\paragraph{Ma section}
+\lipsum[1-5]
+\paragraph{Ma section}
+\lipsum[1-5]
+\subparagraph{Ma section}
+\lipsum[1-5]
+\subparagraph{Ma section}
+\lipsum[1-5]
+  
+\chapter*{Conclusion}
+
+\appendix   
+
+\chapter{Ma première annexe}
+
+\label{ann:chap1}
+        
+\lipsum[1-4]
+
+\begin{equation}
+\label{eq:3}
+E=mc2
+\end{equation} 
+
+\section{truc}
+ 
+\label{ann:chap1:sec}
+
+\chapter{Ma deuxième annexe}
+  
+\label{ann:chap2}
+     
+\lipsum[1-4]
+
+\section{truc}
+
+\label{ann:chap2:sec}
+
+\section{Ma section}
+
+\lipsum[1-3]
+
+\subsection{Ma section}
+
+\lipsum[1-3]
+
+\subsubsection{Ma section}
+
+\lipsum[1-3]
+
+\paragraph{Ma section}
+
+\lipsum[1-3]
+
+\subparagraph{Ma section}
+
+\lipsum[1-3]
+
+
+\end{document}
+
+

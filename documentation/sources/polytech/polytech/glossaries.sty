@@ -1,0 +1,19 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{polytech/glossaries}[\polytechfiledate\space\polytechfileversion\space Polytech document class sub package]
+
+
+% enable glossaries
+\makeglossaries
+
+% properly display glossaries and PDF Toc
+\csdef{printglossaries}{%
+	\forallglossaries {\@@glo@type }{%
+		\bookmarksetupnext{level=part}%
+		\booltrue{polytech@allownewpagesection}%
+		\printglossary [type=\@@glo@type ]%
+		\boolfalse{polytech@allownewpagesection}%
+	}%
+}
+
+% disable \glsaddall
+\renewcommand{\glsaddall}{}

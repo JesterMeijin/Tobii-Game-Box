@@ -1,0 +1,263 @@
+\documentclass{polytech/polytech}
+      
+\usepackage{lipsum}
+  
+\typereport{prddi5}       
+
+\reportyear{2015-2016}   
+
+\title{Exemple d'utilisation de la classe de document \mbox{polytech}}
+\subtitle{Il peut y avoir un sous titre mais ce n'est pas obligatoire}
+\reportlogo{polytech/polytech}
+           
+\student[di5]{Pierre}{Premier}{pierre.premier@example.com}
+\student[di4]{Paul}{Deuxième}{paul2@example.com}
+\student[none]{Paul}{Deuxième}{paul2@example.com}
+\student{Jacques}{Un peu plus Long}{j.unpeupluslong@example.com}
+
+\academicsupervisor[di]{First}{Supervisor}{first.supervisor@example.com}
+\academicsupervisor[dee]{Second}{Supervisor}{second.supervisor@example.com}
+\academicsupervisor{Machin}{Chose}{machin.chose@example.com}
+
+\industrialsupervisor[Fonction très importante]{Un}{Gars}{un.gars@example.com}
+\industrialsupervisor{Un deuxième}{Gars}{undeuxieme.gars@example.com}
+
+\company[polytech/polytech]{La grosse compagnie}{1 rue de l'étrange\\999999 Dans vos rèves}{example.com}
+
+\confidential
+
+\resume{\lipsum[1]}
+\motcle{mot}
+\motcle{clé}            
+\motcle{deux mots}
+             
+\abstract{\lipsum[1-2]}
+\keyword{word}
+\keyword{key}
+\keyword{two words}
+\keyword{fourth word}
+
+
+\posterblock{Objectifs}{
+Lorem ipsum dolor sit amet:
+\begin{itemize}
+\item Vestibulum tincidunt ipsum
+\item In dictum elit condimentum.
+\item Suspendisse ornare orci.
+\end{itemize}
+Aliquam porta mi ut justo pellentesque porta.
+}{polytech/polytech}{dictum elit condimentum}
+
+\posterblock{Mise en \oe{}uvre}{
+Mauris consectetur, et auctor mi \emph{fermentum}.  Etiam venenatis augue neque, ac ullamcorper sodales sit amet.
+\begin{center}
+\begin{tabular}{|c|c|c||c|}
+\hline
+1&2&3&4\\
+\hline
+\end{tabular}
+\end{center}
+Fusce aliquet sed sapien \textbf{tempor} facilisis. Nunc mi urna, cursus a ullamcorper quis, laoreet id felis.  
+}{polytech/polytech}{}%Encore le logo au cas où on ne l'aurait pas vu}
+
+\posterblock{Résultats attendus}{
+\begin{itemize}
+\item Quisque \textbf{dictum} diam in feugiat
+\item Proin quam nec, gravida mi
+\item \textbf{\emph{Suspendisse} truc bidul} vehicula magna
+\item Nulla sagittis diam congue sagittis
+\item Donec auctor a non nisi
+\item Vestibulum quis \emph{rhoncus} risus
+\end{itemize}%
+}{polytech/polytech}{auctor a non nisi\\auctor a non nisi}
+    
+    
+
+\newacronym{lms}{LMS}{Learning Management System}
+\newacronym{qcm}{QCM}{Question à Choix Multiple}
+\newacronym{qcu}{QCU}{Question à Choix Unique}
+\newacronym{ent}{ENT}{Environnement Numérique de Travail}
+\newacronym{iu}{iu}{Interface Utilisateur}
+\newacronym{ui}{UI}{User Interface}
+\newacronym{gui}{GUI}{Graphical User Interface}
+\newacronym{mvc}{MVC}{Model View Controller}
+\newacronym{gorm}{GORM}{Groovy Object Relational Mapping}
+\newacronym{bdd}{BDD}{Base De Données}
+\newacronym{db}{DB}{Data Base}
+\newacronym{jmx}{JLX}{Java Management Extensions}
+\newacronym{uml}{UML}{Unified Modeling Language}
+\newacronym{acm}{ACM}{Auto Multiple Choice}
+\newacronym{betsy}{BETSY}{Bayesian Essay Test Scoring sYstem}
+    
+    
+\newglossaryentry{latex}
+{
+	name=latex,
+	description={Is a mark up language specially suited for 
+		scientific documents}
+}
+\newglossaryentry{moodle}
+{
+	name=moodle,
+	description={Moodle est une platforme d'apprentissage Open-Source}
+}
+\newglossaryentry{opensource}
+{
+	name=Open Source,
+	description={Libre de droit, dont les codes sources sont disponibles et modifiable librement}https://en.wikipedia.org/wiki/List_of_learning_management_systems
+}
+\newglossaryentry{module}
+{
+	name=module,
+	description={Un module est une entité regroupant un groupe. Par exemple, la création/édition/exécution d'un QCM est un module différent de celui accordeur}
+}
+\newglossaryentry{execution}
+{
+	name=exécution,
+	description={L'exécution d'une question est le fait d'y répondre}
+}
+\newglossaryentry{question}
+{
+	name=question,
+	description={Une question contient une sortie (texte, image, son, ...) qui demande à l'utilisateur de fournir une entrée (texte, image, son, ...) pour traiter cette entrée comme étant la réponse à la demande faite en sortie}
+}
+\newglossaryentry{reponse}
+{
+	name=réponse,
+	description={Equivalent du traitement}
+}
+\newglossaryentry{quiz}
+{
+	name=quiz,
+	description={Un quiz est un reccueil de questions}
+}
+\newglossaryentry{traitement}
+{
+	name=traitement,
+	description={Le traitement est le fait de corriger l'entrée d'une question. C'est le mécanisme qui va dire si l'entrée est correcte, n'est pas correcte ou s'il faut une intervention humaine pour traiter le problème}
+}
+
+
+\begin{document}
+             
+\chapter*[Titre court pour l'entête]{Introduction générale du rapport avec un titre un peu long}
+
+\lipsum[1-5]
+\section{Ma section}
+
+\lipsum[1-3]
+
+\subsection{Ma section}
+
+\lipsum[1-3]
+
+\subsubsection{Ma section}
+
+\lipsum[1-3]
+
+\paragraph{Ma section}
+
+\lipsum[1-3]
+
+\subparagraph{Ma section}
+
+\lipsum[1-3]
+
+\section{Une section n'est jamais seule, donc j'en ajoute au moins une autre et le titre peut être long si nécessaire}
+
+\lipsum[1-3]
+                       
+\section{Le dicton dit \og{}Jamais deux sans trois\fg{}, donc j'en ajoute au moins une autre et le titre peut être long si nécessaire mais il ne faut pas abuser car ça devient moche et peu explicite sinon} 
+
+\lipsum[1-3] 
+\index{abc}
+
+\part{Les premiers trucs dont je vais parler}                
+
+\chapter{Le tout premier truc}   
+
+\lipsum[1]
+\index{abc!def}
+           
+\section{Pour ne pas se casser la tête}
+
+\lipsum[1-6]
+
+\part{essai}
+ 
+\chapter{essai:chap1}
+      
+\lipsum[1-4]
+     
+\section{truc}
+
+\chapter*{essai:chap2}
+     
+\lipsum[1-4]
+
+\section{truc}
+
+  
+\chapter{truc}
+\lipsum[1-20]         
+ 
+\section{Ma section}
+\lipsum[1-5]
+
+\section{Ma section}
+\lipsum[1-5]
+
+          
+\subsection{Ma section}
+\lipsum[1-5]
+\subsection{Ma section}
+\lipsum[1-5]
+\subsubsection{Ma section}
+\lipsum[1-5]
+\subsubsection{Ma section}
+\lipsum[1-5]
+\paragraph{Ma section}
+\lipsum[1-5]
+\paragraph{Ma section}
+\lipsum[1-5]
+\subparagraph{Ma section}
+\lipsum[1-5]
+\subparagraph{Ma section}
+\lipsum[1-5]
+  
+\chapter*{Conclusion}
+
+\lipsum[1-2]
+
+         
+  
+
+\appendix   
+
+\chapter{Ma première annexe}
+
+\lipsum[1-4]
+
+\section{truc}
+
+\lipsum[1-4]
+ 
+\chapter{Ma deuxième annexe}
+  
+
+\section{truc}
+
+un essai \gls{question}, un autre essai \gls{module}.
+
+voici \gls{lms} et une deuxième fois \gls{lms}.
+
+
+% it should do nothing
+\glsaddall
+
+  
+         
+
+\end{document}
+
+

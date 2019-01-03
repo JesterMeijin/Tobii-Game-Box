@@ -1,0 +1,21 @@
+before_script:
+  - mkdir -p ~/.ssh
+  - ssh-keyscan -p 2223 static.projectsforge.org > ~/.ssh/known_hosts
+  - eval $(ssh-agent -s)
+  - echo "$SSH_PRIVATE_KEY" | ssh-add - 
+
+test_16.04_latex_default:
+  image: projectsforge/ubuntu-16.04-latex-default
+  stage: test
+  script:
+    - tests/runtests.sh
+
+
+deploy:
+  stage: deploy
+  only:
+    - tags
+  script:
+    - ./deploy.sh
+
+    
