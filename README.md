@@ -2,9 +2,19 @@
 
 ## Running game
 To run the program, you can either compile it or go in release folder.
-You can run ``Tobii GameBox.exe`` in the release folder to run the last release of the game.
+You can run ``TobiiGamebox.exe`` in the release folder to run the last release of the game.
 
 ## Installation
+
+### Users
+To make the sotware running as expected, please download and install the following requirements before : 
+- [Microsoft Visual C++ Redistributable for Visual Studio 2017](https://support.microsoft.com/en-ph/help/2977003/the-latest-supported-visual-c-downloads)
+- [Logiciel Tobii Gaming (Eye Tracking Core Software)](https://tobiigaming.com/getstarted/)
+
+Once installed, you can running the ``TobiiGamebox.exe`` software from the ``release`` folder. Enjoy !
+
+### Developpers
+
 The project was made with Visual Studio 2017. The project files are available in the ``code`` directory.
 You can also import the project with cmake with your favorite IDE.
 

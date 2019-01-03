@@ -1,0 +1,11 @@
+Objectif : Valider tous les cercles dans l'odre croissant de leur numéro
+
+Déroulement de la partie :
+o Des cercles numérotés vont apparaîtres pendant 10 secondes à l'écran.
+o Une fois le temps écoulé, uniquemement les chiffres disparaîtront et laisseront place à des cercles vides.
+o A vous de retrouver et de cibler chaque cercle avec son chiffre manquant et en suivant un ordre croissant afin tous les valider.
+
+Une fois tous les cercles validés, la partie est gagné !
+Une erreur, et c'est perdu !
+
+Bonne chance ! ;)
