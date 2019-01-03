@@ -1,5 +1,0 @@
-cases_pushed=53
-level_loose=6
-level_win=22
-max_level=4
-number_of_games=43
