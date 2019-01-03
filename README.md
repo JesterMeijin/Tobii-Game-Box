@@ -11,7 +11,7 @@ To make the sotware running as expected, please download and install the followi
 - [Microsoft Visual C++ Redistributable for Visual Studio 2017](https://support.microsoft.com/en-ph/help/2977003/the-latest-supported-visual-c-downloads)
 - [Logiciel Tobii Gaming (Eye Tracking Core Software)](https://tobiigaming.com/getstarted/)
 
-Once installed, you can running the ``TobiiGamebox.exe`` software from the ``release`` folder. Enjoy !
+Once installed, you can run the ``TobiiGamebox.exe`` software from the ``release`` folder. Enjoy !
 
 ### Developpers
 
@@ -23,13 +23,13 @@ The libs and includes used for this project are located in ``code/lib`` and ``co
 The ``code/ressources`` contains all the programs assets.
 
 ## Dependancies
-- SDL v2 For graphics and user's events https://www.libsdl.org/index.php
+- [SDL v2](https://www.libsdl.org/index.php) - For graphics and user's events 
 - SDL dependancies
-	- SDL Image For easier assets loading https://www.libsdl.org/projects/SDL_image/
-	- SDL TTF For Text rendering https://www.libsdl.org/projects/SDL_ttf/docs/SDL_ttf.html
-	- SDL Mixer For Music loading https://www.libsdl.org/projects/SDL_mixer/
-- Tobii Stream Engine For the Tobii integration https://developer.tobii.com/consumer-eye-trackers/stream-engine/
-- SPDLOG For logging features https://github.com/gabime/spdlog
+	- [SDL Image](https://www.libsdl.org/projects/SDL_image/) - For easier assets loading 
+	- [SDL TTF](https://www.libsdl.org/projects/SDL_ttf/docs/SDL_ttf.html) - For Text rendering 
+	- [SDL Mixer](https://www.libsdl.org/projects/SDL_mixer/) - For Music loading 
+- [Tobii Stream Engine](https://developer.tobii.com/consumer-eye-trackers/stream-engine/) - For the Tobii integration 
+- [SPDLOG](https://github.com/gabime/spdlog) - For logging features 
 
 
 ## Specifications
